@@ -105,5 +105,5 @@
     <string name="gender_female">No</string>
 
     <!-- Label for the pet's breed if the breed is unknown [CHAR LIMIT=20] -->
-    <string name="unknown_breed">Unknown payment progress</string>
+    <string name="unknown_breed">Unknown remaining payment</string>
 </resources>
