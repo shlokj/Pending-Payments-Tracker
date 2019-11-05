@@ -38,7 +38,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.android.pets.R;
+import co.in.prodigyschool.pendingpaymentstracker.R;
 
 import co.in.prodigyschool.pendingpaymentstracker.data.PetContract.PetEntry;
 
@@ -387,7 +387,7 @@ public class EditorActivity extends AppCompatActivity implements
             int weight = cursor.getInt(weightColumnIndex);
 
             // Update the views on the screen with the values from the database
-            mNameEditText.setText(name);
+            mNameEditText.setText(name.substring(0,name.length()-13));
             mBreedEditText.setText(breed);
             mWeightEditText.setText(Integer.toString(weight));
 

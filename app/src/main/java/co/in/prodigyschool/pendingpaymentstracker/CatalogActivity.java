@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.example.android.pets.R;
+import co.in.prodigyschool.pendingpaymentstracker.R;
 
 import co.in.prodigyschool.pendingpaymentstracker.data.PetContract.PetEntry;
 
@@ -87,7 +87,7 @@ public class CatalogActivity extends AppCompatActivity implements
                 // Form the content URI that represents the specific pet that was clicked on,
                 // by appending the "id" (passed as input to this method) onto the
                 // {@link PetEntry#CONTENT_URI}.
-                // For example, the URI would be "content://com.example.android.pets/pets/2"
+                // For example, the URI would be "content://co.in.prodigyschool.pendingpaymentstracker/pets/2"
                 // if the pet with ID 2 was clicked on.
                 Uri currentPetUri = ContentUris.withAppendedId(PetEntry.CONTENT_URI, id);
 

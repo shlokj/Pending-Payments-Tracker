@@ -10,12 +10,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest package="com.example.android.pets"
+<manifest package="co.in.prodigyschool.pendingpaymentstracker"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ppayttempicontransparent"
+        android:icon="@drawable/ppayiconfinal"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -38,7 +38,7 @@
         </activity>
         <provider
             android:name="co.in.prodigyschool.pendingpaymentstracker.data.PetProvider"
-            android:authorities="com.example.android.pets"
+            android:authorities="co.in.prodigyschool.pendingpaymentstracker"
             android:exported="false" />
     </application>
 

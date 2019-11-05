@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
 
-import com.example.android.pets.R;
+import co.in.prodigyschool.pendingpaymentstracker.R;
 
 import co.in.prodigyschool.pendingpaymentstracker.data.PetContract.PetEntry;
 

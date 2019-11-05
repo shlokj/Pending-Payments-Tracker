@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 28
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.example.android.pets"
+        applicationId "co.in.prodigyschool.pendingpaymentstracker"
         minSdkVersion 15
-        targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 28
+        versionCode 3
+        versionName "1.1"
     }
     buildTypes {
         release {
